@@ -1,0 +1,34 @@
+0 - Protection
+1 - Fire Protection
+2 - Feather Falling
+3 - Blast Protection
+4 - Projectile Protection
+5 - Respiration
+6 - Aqua Affinity
+7 - Thorns
+8 - Depth Strider
+9 - Frost Walker
+10 - Binding Curse
+11 - Sharpness
+12 - Smite
+13 - Bane of Arthropods
+14 - Knockback
+15 - Fire Aspect
+16 - Looting
+17 - Sweeping Edge
+18 - Efficiency
+19 - Silk Touch
+20 - Unbreaking
+21 - Fortune
+22 - Power
+23 - Punch
+24 - Flame
+25 - Infinity
+26 - Luck of the Sea
+27 - Lure
+28 - Mending
+29 - Vanishing Curse
+
+no count roll:
+
+6, 10, 19, 24, 25, 28, 29
