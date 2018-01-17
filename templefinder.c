@@ -60,6 +60,9 @@ static int check_loottableseed(long long loottableseed, int *mending_count){
 			advance(seed);
 			continue;
 		}
+
+		// Enchanted books have a weight of 20, and the total weight of items before it is 175.
+
 		if (roll >= 175 && roll < 195){  // We got an enchanted book
 			// Roll which enchantment to put on the book. There are 30 possible enchantments.
 			int enchantment = nextInt(seed, 30);
@@ -136,10 +139,10 @@ void seed_search(){
 	clock_t cs = clock();
 	printf("\nInitializing seed search\n\n");
 	
-    
-    for (long long seed = 0; seed < 100000000; ++seed){
-        check_temple(seed, 0, 0);
-    }
+	
+	for (long long seed = 0; seed < 100000000; ++seed){
+		check_temple(seed, 0, 0);
+	}
 
 
 	clock_t deltatime = clock()-cs;
@@ -151,7 +154,7 @@ void seed_search(){
 
 int main(int argc, char **argv) {
 
-    seed_search();
+	seed_search();
 
 	return 0;
 }
